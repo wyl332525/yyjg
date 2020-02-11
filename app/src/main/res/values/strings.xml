@@ -1,0 +1,455 @@
+<resources>
+
+    <!-- 登录页用到的string -->
+    <string name="app_name">移动监管</string>
+    <string name="welcome">欢迎登录</string>
+    <string name="login">登录</string>
+    <string name="autoLogin">自动登录</string>
+    <string name="rememberMe">记住密码</string>
+    <string name="inputUserId">请输入您的账号</string>
+    <string name="inputPassword">请输入您的密码</string>
+
+
+    <!-- 首页用到的String -->
+    <string name="sjgk">数据概况</string>
+
+
+    <string name="car_login">车辆登录</string>
+    <string name="car_num">车牌号码:</string>
+    <string name="car_color">车牌颜色:</string>
+    <string name="vin">VIN后四位:</string>
+    <string name="check_mode">检测模式:</string>
+    <string name="search">查询</string>
+    <array name="tabs">
+        <item>首页</item>
+        <item>决策支持</item>
+        <item>移动检查</item>
+        <item>我的</item>
+    </array>
+    <array name="car_type">
+        <item>小车</item>
+        <item>大车</item>
+        <item>拖拉机</item>
+        <item>摩托车</item>
+        <item>黄包车</item>
+    </array>
+
+    <array name="check_keys">
+        <item>carCardNumber</item>
+        <item>carCardColor</item>
+        <item>fuelType</item>
+        <item>oldCheckMethod</item>
+        <item>reCheckInfo</item>
+        <item>newCheckMethod</item>
+        <item>xgyy</item>
+        <item>photo</item>
+    </array>
+
+    <array name="keys">
+        <item>cphm</item>
+        <item>cpzl</item>
+        <item>sfyhclzz</item>
+        <item>qdfs</item>
+        <item>sfyobd</item>
+        <item>obdtxsfzc</item>
+        <item>obdjysfygz</item>
+        <item>zxxtsfzc</item>
+        <item>pqxtsfxl</item>
+        <item>sfly</item>
+        <item>sfgbtszz</item>
+        <item>wgjcjg</item>
+        <item>wgjcrmc</item>
+        <item>wgjczh</item>
+        <item>wgjcyj</item>
+        <item>wgjckssj</item>
+        <item>photo</item>
+    </array>
+
+    <array name="photo_keys">
+        <item>vinImgs</item>
+        <item>enprotectImgsOne</item>
+        <item>enprotectImgsTwo</item>
+        <item>beforeCarAspectImgs</item>
+        <item>afterCarAspectImgs</item>
+        <item>enprotectImgsThree</item>
+        <item>enprotectImgsFour</item>
+    </array>
+    <array name="photo_Lock">
+        <item>applyImgs1</item>
+        <item>applyImgs2</item>
+        <item>applyImgs3</item>
+    </array>
+
+
+    <!--假数据 业务申请 修改检查方法-->
+    <array name="data">
+        <item>cphm</item>
+        <item>cpzl</item>
+        <item>clsbm</item>
+        <item>sqr</item>
+        <item>sqyy</item>
+        <item>sqff</item>
+        <item>fj</item>
+        <item>sqnr</item>
+    </array>
+    <!--假数据 业务申请 跨站解锁检查方法-->
+    <array name="lockdata">
+        <item>carCardNumber</item>
+        <item>carCardColor</item>
+        <item>VIN</item>
+        <item>applyReason</item>
+        <item>telephone</item>
+        <item>ownerName</item>
+        <item>stationName</item>
+        <item>checkResult</item>
+        <item>checkTime</item>
+        <item>photo</item>
+    </array>
+
+    <!--车辆信息修改-->
+    <array name="carinfoupdate">
+        <item>carCardNumber</item>
+        <item>carCardColor</item>
+        <item>applyTEL</item>
+        <item>sqsj</item>
+        <item>applyContent</item>
+        <item>ceshi</item>
+    </array>
+    <!--外观检验-->
+    <array name="carcheckout">
+        <item>cphm</item>
+        <item>cpys</item>
+        <item>hpzl</item>
+        <item>clsbm</item>
+        <item>clzl</item>
+        <item>cllx</item>
+        <item>syxz</item>
+        <item>syr</item>
+        <item>czdh</item>
+        <item>czdz</item>
+        <item>ssxq</item>
+        <item>clzzc</item>
+        <item>clxh</item>
+        <item>fdjxh</item>
+        <item>fdjhm</item>
+        <item>pl</item>
+        <item>zdzzl</item>
+        <item>jzzl</item>
+        <item>rlzl</item>
+        <item>rybxs</item>
+        <item>sychq</item>
+        <item>bsqxs</item>
+        <item>qdfs</item>
+        <item>jqfs</item>
+        <item>rlgg</item>
+        <item>pfbz</item>
+        <item>ccls</item>
+        <item>jyjg</item>
+        <item>jyyj</item>
+        <item>cldjrq</item>
+        <item>ceshi</item>
+    </array>
+    <array name="change_car_info">
+        <item>APPLYPEOPLE</item>
+        <item>CARCARDNUMBER</item>
+        <item>CARCARDCOLOR</item>
+        <item>VIN</item>
+        <item>CARVERSION</item>
+        <item>OWNERNAME</item>
+        <item>APPLYTIME</item>
+        <item>STATE</item>
+        <item>DEALPEOPLE</item>
+        <item>DEALSTARTTIME</item>
+
+        <item>IMGS</item>
+        <item>APPLYCONTENT</item>
+    </array>
+    <array name="kzjssq">
+        <item>APPLYPEOPLE</item>
+        <item>CARCARDNUMBER</item>
+        <item>CARCARDCOLOR</item>
+        <item>CARVERSION</item>
+        <item>APPLYTIME</item>
+        <item>STATE</item>
+        <item>DEALPEOPLE</item>
+        <item>DEALSTARTTIME</item>
+
+        <item>IMGS</item>
+        <item>APPLYREASON</item>
+    </array>
+    <array name="jcffsqxq">
+        <item>sqr</item>
+        <item>carcardnumber</item>
+        <item>charcardcolor</item>
+        <item>carversion</item>
+        <item>hpzl</item>
+        <item>vin</item>
+        <item>fueltype</item>
+        <item>ownername</item>
+        <item>oldcheckmethod</item>
+        <item>newcheckmethod</item>
+        <item>xgsj</item>
+        <item>IMGS</item>
+        <item>xgyy</item>
+
+    </array>
+    <array name="xgjcff">
+        <item>carcardnumber</item>
+        <item>hpzl</item>
+        <item>vin</item>
+        <item>sqr</item>
+        <item>sqyy</item>
+        <item>sqff</item>
+        <item>file</item>
+        <item>yyxs</item>
+    </array>
+    <!--真实数据-->
+    <!--车辆行驶信息录入-->
+    <array name="cardriverinfo">
+        <item>carcardnumber</item>
+        <item>cardcolor</item>
+        <item>cardtype</item>
+        <item>carmode</item>
+        <item>ownername</item>
+        <item>region</item>
+        <item>owneraddress</item>
+        <item>cararea</item>
+        <item>usedquality</item>
+        <item>carbrand</item>
+        <item>carversion</item>
+        <item>vin</item>
+        <item>enginenumber</item>
+        <item>registerdate</item>
+        <item>checkpeople</item>
+        <item>maxweight</item>
+        <item>outfitweight</item>
+        <item>checkweight</item>
+    </array>
+    <!--其它车辆信息录入-->
+    <array name="carotherinfo">
+        <item>carfield</item>
+        <item>engineversion</item>
+        <item>outputvolume</item>
+        <item>mileagenum</item>
+        <item>ratedpower</item>
+        <item>fueltype</item>
+        <item>isdoublefule</item>
+        <item>speedchanger</item>
+        <item>ratedspeed</item>
+        <item>makername</item>
+        <item>outfactorydate</item>
+        <item>fuelpumpform</item>
+        <item>airinflow</item>
+        <item>oilsupply</item>
+        <item>issyjhq</item>
+        <item>drivemode</item>
+        <item>fuelstandard</item>
+        <!--<item>registoffice</item>-->
+    </array>
+    <!--车主信息-->
+    <array name="carownerinfo">
+        <item>cardname</item>
+        <item>cardnumber</item>
+        <item>tel</item>
+        <item>agentname</item>
+        <item>agentcardnumber</item>
+        <item>agenttel</item>
+    </array>
+
+    <array name="code">
+        <item>cardName</item>
+    </array>
+    <array name="checkdetail">
+        <item>carCardNumber</item>
+        <item>carCardColor</item>
+        <item>carMode</item>
+        <item>makerName</item>
+        <item>vin</item>
+        <item>engineVersion</item>
+        <item>outPutVolume</item>
+        <item>maxWeight</item>
+        <item>baseWeight</item>
+        <item>fuelType</item>
+        <item>issyjhq</item>
+        <item>speedChanger</item>
+        <item>driveMode</item>
+        <item>mileageNum</item>
+        <item>cljxzk</item>
+        <item>pqwrkzzz</item>
+        <item>sfsjymhy</item>
+        <item>qzxtfxt</item>
+        <item>ryzfkzxt</item>
+        <item>ybpgzqk</item>
+        <item>sfyjxgz</item>
+        <item>pqxtsfxl</item>
+        <item>sfyytxl</item>
+        <item>sfyobd</item>
+        <item>ltqysfzc</item>
+        <item>sfgbktnf</item>
+        <item>sfzdmxgn</item>
+        <item>yxypsfyc</item>
+        <item>ltsfqj</item>
+        <item>sfshgkfjc</item>
+        <item>checkResult</item>
+        <item>checkIdea</item>
+        <item>photo</item>
+    </array>
+
+    <array name="checkdetai2">
+        <item>carCardNumber</item>
+        <item>carCardColor</item>
+        <item>carMode</item>
+        <item>makerName</item>
+        <item>vin</item>
+        <item>engineVersion</item>
+        <item>outPutVolume</item>
+        <item>maxWeight</item>
+        <item>baseWeight</item>
+        <item>fuelType</item>
+        <item>issyjhq</item>
+        <item>speedChanger</item>
+        <item>driveMode</item>
+        <item>mileageNum</item>
+        <item>cljxzk</item>
+        <item>pqwrkzzz</item>
+        <item>sfsjymhy</item>
+        <item>fdjsfdkb</item>
+        <item>ybpgzqk</item>
+        <item>sfyjxgz</item>
+        <item>pqxtsfxl</item>
+        <item>sfyytxl</item>
+        <item>sfyobd</item>
+        <item>ltqysfzc</item>
+        <item>sfgbktnf</item>
+        <item>sfzdmxgn</item>
+        <item>yxypsfyc</item>
+        <item>ltsfqj</item>
+        <item>sfshgkfjc</item>
+        <item>checkResult</item>
+        <item>checkIdea</item>
+        <item>photo</item>
+    </array>
+
+    <array name="reciverdetail">
+        <item>carCardNumber</item>
+        <item>carCardColor</item>
+        <item>carMode</item>
+        <item>makerName</item>
+        <item>vin</item>
+        <item>engineVersion</item>
+        <item>outPutVolume</item>
+        <item>maxWeight</item>
+        <item>baseWeight</item>
+        <item>fuelType</item>
+        <item>issyjhq</item>
+        <item>speedChanger</item>
+        <item>driveMode</item>
+        <item>mileageNum</item>
+        <item>cljxzk</item>
+        <item>pqwrkzzz</item>
+        <item>sfsjymhy</item>
+        <item>qzxtfxt</item>
+        <item>ryzfkzxt</item>
+        <item>ybpgzqk</item>
+        <item>sfyjxgz</item>
+        <item>pqxtsfxl</item>
+        <item>sfyytxl</item>
+        <item>sfyobd</item>
+        <item>ltqysfzc</item>
+        <item>sfgbktnf</item>
+        <item>sfzdmxgn</item>
+        <item>yxypsfyc</item>
+        <item>ltsfqj</item>
+        <item>sfshgkfjc</item>
+        <item>checkResult</item>
+        <item>checkIdea</item>
+        <item>photo</item>
+    </array>
+
+    <array name="reciverdetai2">
+        <item>carCardNumber</item>
+        <item>carCardColor</item>
+        <item>carMode</item>
+        <item>makerName</item>
+        <item>vin</item>
+        <item>engineVersion</item>
+        <item>outPutVolume</item>
+        <item>maxWeight</item>
+        <item>baseWeight</item>
+        <item>fuelType</item>
+        <item>issyjhq</item>
+        <item>speedChanger</item>
+        <item>driveMode</item>
+        <item>mileageNum</item>
+        <item>cljxzk</item>
+        <item>pqwrkzzz</item>
+        <item>sfsjymhy</item>
+        <item>fdjsfdkb</item>
+        <item>ybpgzqk</item>
+        <item>sfyjxgz</item>
+        <item>pqxtsfxl</item>
+        <item>sfyytxl</item>
+        <item>sfyobd</item>
+        <item>ltqysfzc</item>
+        <item>sfgbktnf</item>
+        <item>sfzdmxgn</item>
+        <item>yxypsfyc</item>
+        <item>ltsfqj</item>
+        <item>sfshgkfjc</item>
+        <item>checkResult</item>
+        <item>checkIdea</item>
+        <item>photo</item>
+    </array>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--个人中心-->
+    <string name="grxx">个人信息</string>
+    <string name="sgrq">上岗日期</string>
+    <string name="sfzh">身份证号</string>
+    <string name="gzdh">工作电话</string>
+    <string name="yx">邮箱</string>
+    <string name="byyx">毕业院校</string>
+    <string name="sxzy">所学专业</string>
+    <string name="xl">学历</string>
+    <string name="byrq">毕业日期</string>
+    <string name="yhmc">用户名称</string>
+    <string name="yhzh">用户账号</string>
+    <string name="xb">性别</string>
+    <string name="csrq">出生日期</string>
+    <string name="csd">出生地</string>
+    <string name="lxdz">联系地址</string>
+    <string name="yddh">移动电话</string>
+    <string name="yzbm">邮政编码</string>
+    <string name="qmzp">签名照片</string>
+
+
+    <string name="wdrw">我的任务</string>
+    <string name="xxgl">消息管理</string>
+    <string name="ywcljl">业务处理记录</string>
+    <string name="qx">取消</string>
+    <string name="hf">回复</string>
+    <string name="kjhf">点击此处可快捷回复</string>
+    <string name="test_title3">车辆类型</string>
+    <string name="message_title">信息标题:</string>
+    <string name="message_type">信息类别:</string>
+    <string name="send_people">接收人:</string>
+    <string name="replay_state">回复情况:</string>
+    <string name="enclosure_info">附件信息:</string>
+    <string name="info_content">信息内容:</string>
+    <string name="info_remarke">信息备注:</string>
+    <string name="input_message_title">输入标题</string>
+</resources>

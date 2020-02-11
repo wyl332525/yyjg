@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <declare-styleable name="TreeView">
+        <attr name="have_check" format="boolean|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MuiCheckTextLayout">
+        <attr name="mui_check_left_text" format="string|reference" />
+        <attr name="mui_check_right_text" format="string|reference" />
+        <attr name="checktextSize" format="integer|reference"/>
+        <attr name="android:textColor"/>
+    </declare-styleable>
+    <declare-styleable name="MuiTextIconLayout">
+        <attr name="android:text" />
+        <attr name="android:src" />
+        <attr name="icontextSize" format="integer|reference"/>
+        <attr name="android:textColor"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="QMUILoadingView">
+        <attr name="qmui_loading_view_size" format="dimension"/>
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="MuiInputEditText">
+        <attr name="mui_option" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="onlyDelete" value="1"/>
+            <enum name="onlyIcon" value="2"/>
+            <enum name="iconDelete" value="3"/>
+            <enum name="iconDeleteIcon" value="4"/>
+            <enum name="deleteIcon" value="5"/>
+            <enum name="iconIcon" value="6"/>
+        </attr>
+        <attr name="mui_bg" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="have" value="1"/>
+        </attr>
+        <attr name="mui_hint" format="string|reference"/>
+        <attr name="mui_text" format="string|reference"/>
+        <attr name="mui_clickable" format="boolean|reference"/>
+        <attr name="mui_leftIcon" format="integer|reference"/>
+        <attr name="mui_rightIcon" format="integer|reference"/>
+    </declare-styleable>
+    
+    <declare-styleable name="Option">
+        <attr name="option" format="enum">
+            <!--调用showSwitch方法，显示开关-->
+            <enum name="switchOption" value="0" />
+            <!--调用showTitleImageArrow方法，显示右边带图片带箭头-->
+            <enum name="image" value="1" />
+            <!--调用showTitleArrowTextAndArrow方法，显示右边带文字带箭头-->
+            <enum name="arrowDesc" value="2" />
+            <!--调用showTitleArrow方法，显示带箭头-->
+            <enum name="arrow" value="3" />
+            <!--调用showTitleArrowText方法，显示右边带文字，不带箭头-->
+            <enum name="desc" value="4" />
+            <!--调用showTitle方法，只显示文字，不带箭头-->
+            <enum name="edit" value="5" />
+            <!--调用showTitle方法，只显示文字，不带箭头-->
+            <enum name="editDelete" value="6" />
+            <!--调用showTitle方法，只显示文字，不带箭头-->
+            <enum name="choose" value="7" />
+            <!--调用showTitle方法，只显示文字，不带箭头-->
+            <enum name="none" value="8" />
+        </attr>
+        <attr name="optionTitle" format="reference|string" />
+        <attr name="optionImage" format="reference|integer" />
+        <attr name="optionDesc" format="reference|string" />
+        <attr name="topLine" format="reference|boolean" />
+        <attr name="optionChooseLeft" format="reference|string" />
+        <attr name="optionChooseRight" format="reference|string" />
+        <attr name="downLine" format="reference|boolean" />
+    </declare-styleable>
+	<declare-styleable name="SwitchButton">
+        <attr name="sb_shadow_radius" format="reference|dimension"/>
+        <attr name="sb_shadow_offset" format="reference|dimension"/>
+        <attr name="sb_shadow_color" format="reference|color"/>
+        <attr name="sb_uncheck_color" format="reference|color"/>
+        <attr name="sb_checked_color" format="reference|color"/>
+
+        <attr name="sb_border_width" format="reference|dimension"/>
+        <attr name="sb_checkline_color" format="reference|color"/>
+        <attr name="sb_checkline_width" format="reference|dimension"/>
+        <attr name="sb_uncheckcircle_color" format="reference|color"/>
+        <attr name="sb_uncheckcircle_width" format="reference|dimension"/>
+        <attr name="sb_uncheckcircle_radius" format="reference|dimension"/>
+
+        <attr name="sb_checked" format="reference|boolean"/>
+        <attr name="sb_shadow_effect" format="reference|boolean"/>
+        <attr name="sb_effect_duration" format="reference|integer"/>
+        <attr name="sb_button_color" format="reference|color"/>
+        <attr name="sb_show_indicator" format="reference|boolean"/>
+        <attr name="sb_background" format="reference|color"/>
+        <attr name="sb_enable_effect" format="reference|boolean"/>
+    </declare-styleable>
+</resources>

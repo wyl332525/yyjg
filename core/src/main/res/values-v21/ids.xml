@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="BaseQuickAdapter_viewholder_support" type="id"/>
+    <item name="BaseQuickAdapter_swiping_support" type="id"/>
+    <item name="BaseQuickAdapter_dragging_support" type="id"/>
+    <item name="BaseQuickAdapter_databinding_support" type="id"/>
+
+    <item type="id" name="statusbarutil_fake_status_bar_view" />
+    <item type="id" name="statusbarutil_translucent_view" />
+
+
+    <item name="node_header" type="id" />
+    <item name="node_items" type="id" />
+    <item name="tree_items" type="id" />
+
+    <!-- dialog -->
+    <item name="qmui_dialog_edit_input" type="id"/>
+    <item name="qmui_dialog_edit_right_icon" type="id"/>
+</resources>

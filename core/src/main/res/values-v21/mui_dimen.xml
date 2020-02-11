@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mui_text_size">16sp</dimen>
+    
+    <dimen name="mui_edit_text_margin_horizontal">6dp</dimen>
+    <dimen name="mui_actionBarSize">48dp</dimen>
+    <dimen name="mui_minHeight">24dp</dimen>
+    <!--**********************************************
+    *                  Dialog                    *
+    **********************************************-->
+    <dimen name="qmui_dialog_radius">4dp</dimen>
+    <dimen name="qmui_dialog_action_button_radius">2dp</dimen>
+    
+    
+    <!-- 全局统一的界面左右间距，例如列表分隔线inset -->
+    <dimen name="qmui_content_padding_horizontal">@dimen/qmui_content_spacing_horizontal</dimen> <!-- 已废弃 -->
+    <dimen name="qmui_content_spacing_horizontal">16dp</dimen> <!-- margin 和 padding 等使用的内容通用水平间距 -->
+	
+	<!--**********************************************
+        *               qmui loading view                *
+        ***********************************************-->
+    <dimen name="qmui_loading_size">20dp</dimen>
+	<!-- tip -->
+    <dimen name="qmui_tip_dialog_min_width">120dp</dimen>
+    <dimen name="qmui_tip_dialog_min_height">56dp</dimen>
+    <dimen name="qmui_tip_dialog_margin_horizontal">@dimen/qmui_content_spacing_horizontal</dimen>
+    <dimen name="qmui_tip_dialog_padding_vertical">12dp</dimen>
+    <dimen name="qmui_tip_dialog_padding_horizontal">@dimen/qmui_content_padding_horizontal</dimen>
+    
+    <!--**********************************************
+        *                qmui dialog                     *
+        **********************************************-->
+    <dimen name="qmui_dialog_margin_horizontal">40dp</dimen>
+    <dimen name="qmui_dialog_min_width">280dp</dimen>
+    <dimen name="qmui_dialog_margin_vertical">20dp</dimen>
+    <dimen name="qmui_dialog_padding_horizontal">12dp</dimen>
+    
+    <!-- content -->
+    <dimen name="qmui_dialog_content_padding_top">14dp</dimen>
+    <dimen name="qmui_dialog_content_padding_top_when_no_title">12dp</dimen>
+    <dimen name="qmui_dialog_content_padding_top_when_list">8dp</dimen>
+    <dimen name="qmui_dialog_content_padding_bottom">28dp</dimen>
+    <dimen name="qmui_dialog_content_padding_bottom_when_no_action">8dp</dimen>
+    <dimen name="qmui_dialog_content_padding_bottom_when_action_block">16dp</dimen>
+    <dimen name="qmui_dialog_content_message_text_size">16sp</dimen>
+    <dimen name="qmui_dialog_content_list_item_height">48dp</dimen>
+    <dimen name="qmui_dialog_content_list_item_text_size">15sp</dimen>
+    <dimen name="qmui_dialog_confirm_content_padding_top">28dp</dimen>
+    <dimen name="qmui_dialog_confirm_content_padding_bottom">22dp</dimen>
+    <dimen name="qmui_dialog_edit_content_padding_top">16dp</dimen>
+    <dimen name="qmui_dialog_edit_content_padding_bottom">12dp</dimen>
+    <dimen name="qmui_dialog_block_content_text_size">14sp</dimen>
+</resources>

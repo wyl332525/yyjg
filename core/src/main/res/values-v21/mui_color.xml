@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mui_hint">#5D646E</color>
+    
+    <!-- qmui -->
+    <color name="qmui_drawable_color_list_pressed">#DEE0E2</color>
+    <color name="qmui_config_color_white">#ffffff</color>
+    <color name="qmui_config_color_black">#212832</color>
+    <color name="qmui_config_color_gray_1">#353C46</color>
+     <color name="qmui_config_color_gray_3">#5D646E</color>
+    <color name="qmui_config_color_gray_4">#717882</color>
+    <color name="qmui_config_color_gray_5">#858C96</color>
+    <color name="qmui_config_color_blue">#1B88EE</color>
+    <color name="qmui_config_color_50_blue">#801B88EE</color>
+    <color name="qmui_config_color_red">#FA3A3A</color>
+    <color name="qmui_config_color_pressed">#EEEEF0</color>
+    <color name="qmui_config_color_75_pure_black">#C0000000</color>
+    
+    <color name="qmui_config_color_link">#547FB0</color>
+    
+    <color name="red">#ffff0000</color>
+    <color name="qmui_loading_color">@color/qmui_config_color_gray_5</color>
+    <color name="qmui_dialog_menu_item_text_color">@color/qmui_config_color_black</color>
+    
+     <color
+        name="qmui_dialog_title_text_color">@color/qmui_config_color_black</color>
+</resources>
